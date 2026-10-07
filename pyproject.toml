@@ -1,0 +1,8 @@
+[project]
+name = "nat-sim"
+version = "0.1.0"
+description = "Fully local, in-memory NAT and connection tracking simulator"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
